@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Manisha Krishna Pandey - Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Manisha Krishna Pandey</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I am a passionate web developer skilled in HTML, CSS, JavaScript, and React.js. I love building responsive and user-friendly web applications.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML, CSS, JavaScript</li>
+      <li>React.js, Bootstrap</li>
+      <li>Responsive Web Design</li>
+      <li>Teamwork and Communication</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Tic tac toe game</h3>
+      <p>The Tic Tac Toe game website is a fun and interactive platform that allows users to play the classic game in their browser. It is built using HTML, CSS, and JavaScript, making it lightweight, responsive, and easy to use.</p>
+      <a href="https://manishapandey-2005.github.io/tic-tac-toe/">View Project</a>
+    </div>
+    <div class="project">
+      <h3>TestyBites Restaurant</h3>
+      <p>A responsive web app using HTML, CSS. It's clean, easy to understand and structured into sections to showcase a restaurant's offerings and information.</p>
+      <a href="https://manishapandey-2005.github.io/hotel/">View Project</a>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form onsubmit="submitContact(event)">
+      <input type="text" id="name" placeholder="Your Name" required />
+      <input type="email" id="email" placeholder="Your Email" required />
+      <textarea id="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Manisha Krishna Pandey</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
